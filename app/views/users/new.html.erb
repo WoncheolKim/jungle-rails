@@ -1,9 +1,13 @@
 <h1>Signup!</h1>
 
 <%= form_for :user, url: '/users' do |f| %>
-  <%= label_tag :name %>
+  <%= label_tag :first_name %>
   <p>
-  <%= f.text_field :name %>
+  <%= f.text_field :first_name %>
+  </p>
+  <%= label_tag :last_name %>
+  <p>
+  <%= f.text_field :last_name %>
   </p>
   <%= label_tag :email %>
   <p>

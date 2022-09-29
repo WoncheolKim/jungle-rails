@@ -4,12 +4,11 @@ describe("Testing Home page", () => {
   });
 
   it("allows users to navigate from home page to product detail page by clicking on a product", () => {
-    cy.get(".products article")
-      .eq(1)
-      .click()
-      .then(() => {
-        return ".product-detail";
-      });
+    cy.get(".products article").first().click();
+    // .then(() => {
+    // return ".product-detail";
+    // });
+    cy.get(".product-detail").should("have.length", 1);
   });
 });
 

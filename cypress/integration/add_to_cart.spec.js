@@ -8,6 +8,3 @@ describe("Testing Home page", () => {
     cy.get(".nav-link").should("contain", 1);
   });
 });
-
-// users can click the 'Add to Cart' button for a product on the home page and in doing so their cart increases by one.
-// first().click();

@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example. Users are able to add items to their cart and submit orders. Admins are able to add/delete/edit categories and products. Jungle app was tested with Poltergeis and Capybara.
 
 ## Setup
 
